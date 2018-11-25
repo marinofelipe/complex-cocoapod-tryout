@@ -6,13 +6,17 @@
 //  Copyright © 2018 Felipe Marino. All rights reserved.
 //
 
-struct Log {
+import Extensions
+
+public struct Log {
     /// Logs a common error - any that should be logged
     ///
     /// - Parameter error: string describing the error
-    func common(error: String) {
-        FabricAnswers().log(commonError: error)
+    public func common(error: String) {
         print(.logPrefix + " " + error)
+        
+        let url = URL(staticString: "www.apple.com/report")
+        // TODO: report error to URL
     }
 }
 

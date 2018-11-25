@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
   s.subspec 'Log' do |ss|
     ss.requires_arc = true
     ss.source_files = "MultiSpecs/Log"
+    ss.ios.dependency 'MultiSpecs/Extensions/Foundation'
   end
 
 end
