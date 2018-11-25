@@ -2,7 +2,7 @@
 To test CocoaPods with many subspecs and cross dependencies
 
 ### Structure
-This example has a [podspec]() that declares:
+This example has a [podspec](https://github.com/marinofelipe/complex-cocoapod-tryout/blob/master/MultiSpecs.podspec) that declares:
 - Subspecs with inner subspecs
 - Subspecs that has other subspecs as dependencies
 
