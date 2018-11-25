@@ -1,16 +1,16 @@
 PODS:
-  - MultiSpecs (0.0.1)
+  - MultiSpecs/Extensions (0.0.1)
 
 DEPENDENCIES:
-  - MultiSpecs (from `../`)
+  - MultiSpecs/Extensions (from `../`)
 
 EXTERNAL SOURCES:
   MultiSpecs:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MultiSpecs: b03cf0cfc4bd15c2aefd408efbcb1b672d5926ae
+  MultiSpecs: 2cd394583b80c4eadad280c4e1ba59f43e65c56e
 
-PODFILE CHECKSUM: f8675a9599d4b9a67244aac64aa95987fc0d4994
+PODFILE CHECKSUM: 1bd023289b16a5b5e7dbcb0d4b20084acd0eac7e
 
 COCOAPODS: 1.5.3

@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor {
     
-    convenience init?(hexString: String) {
+    public convenience init?(hexString: String) {
         var chars = Array(hexString.hasPrefix("#") ? hexString.dropFirst() : hexString[...])
         
         let red, green, blue, alpha: CGFloat
