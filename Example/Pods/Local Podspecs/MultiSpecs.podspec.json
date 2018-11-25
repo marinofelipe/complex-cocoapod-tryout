@@ -23,7 +23,19 @@
     {
       "name": "Extensions",
       "requires_arc": true,
-      "source_files": "MultiSpecs/Extensions"
+      "source_files": "MultiSpecs/Extensions",
+      "subspecs": [
+        {
+          "name": "UIKit",
+          "requires_arc": true,
+          "source_files": "MultiSpecs/Extensions/UIKit"
+        },
+        {
+          "name": "Foundation",
+          "requires_arc": true,
+          "source_files": "MultiSpecs/Extensions/Foundation"
+        }
+      ]
     },
     {
       "name": "Log",

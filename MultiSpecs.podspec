@@ -20,6 +20,16 @@ Pod::Spec.new do |s|
   s.subspec 'Extensions' do |ss|
     ss.requires_arc = true
     ss.source_files = "MultiSpecs/Extensions"
+
+    ss.subspec 'UIKit' do |sss|
+      sss.requires_arc = true
+      sss.source_files = "MultiSpecs/Extensions/UIKit"
+    end
+
+    ss.subspec 'Foundation' do |sss|
+      sss.requires_arc = true
+      sss.source_files = "MultiSpecs/Extensions/Foundation"
+    end
   end
 
   s.subspec 'Log' do |ss|

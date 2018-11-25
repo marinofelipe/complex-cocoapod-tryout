@@ -4,7 +4,7 @@ workspace '../MultiSpecs'
 target 'MultiSpecsDemo' do
   use_frameworks!
 
-  pod 'MultiSpecs/Extensions', :path => '../'  
+  pod 'MultiSpecs/Extensions/UIKit', :path => '../'  
 
   target 'MultiSpecsDemoTests' do
     inherit! :search_paths

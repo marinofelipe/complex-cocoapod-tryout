@@ -14,6 +14,7 @@
 		D5C1DE5C21AB4D9E00258653 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DE5B21AB4D9E00258653 /* UIColor.swift */; };
 		D5C1DE6621AB4EB700258653 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C1DE6421AB4EB700258653 /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C1DE6B21AB4EDF00258653 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DE6A21AB4EDF00258653 /* Log.swift */; };
+		D5C1DE6F21AB570500258653 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1DE6E21AB570500258653 /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		D5C1DE6421AB4EB700258653 /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		D5C1DE6521AB4EB700258653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C1DE6A21AB4EDF00258653 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		D5C1DE6E21AB570500258653 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +121,10 @@
 		D5C1DE5421AB4A8800258653 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D5C1DE6D21AB56D600258653 /* Foundation */,
+				D5C1DE6C21AB56C600258653 /* UIKit */,
 				D5C1DE5521AB4A8800258653 /* Extensions.h */,
 				D5C1DE5621AB4A8800258653 /* Info.plist */,
-				D5C1DE5B21AB4D9E00258653 /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -134,6 +137,22 @@
 				D5C1DE6A21AB4EDF00258653 /* Log.swift */,
 			);
 			path = Log;
+			sourceTree = "<group>";
+		};
+		D5C1DE6C21AB56C600258653 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1DE5B21AB4D9E00258653 /* UIColor.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D5C1DE6D21AB56D600258653 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1DE6E21AB570500258653 /* URL.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C1DE5C21AB4D9E00258653 /* UIColor.swift in Sources */,
+				D5C1DE6F21AB570500258653 /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +597,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Extensions/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MultiSpecs/Extensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -604,7 +624,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Extensions/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MultiSpecs/Extensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,7 +650,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Log/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MultiSpecs/Log/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -657,7 +677,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Log/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MultiSpecs/Log/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

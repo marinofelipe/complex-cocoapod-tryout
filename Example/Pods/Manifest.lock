@@ -1,16 +1,16 @@
 PODS:
-  - MultiSpecs/Extensions (0.0.1)
+  - MultiSpecs/Extensions/UIKit (0.0.1)
 
 DEPENDENCIES:
-  - MultiSpecs/Extensions (from `../`)
+  - MultiSpecs/Extensions/UIKit (from `../`)
 
 EXTERNAL SOURCES:
   MultiSpecs:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MultiSpecs: 2cd394583b80c4eadad280c4e1ba59f43e65c56e
+  MultiSpecs: 380f3b0b02f764f46eecb7942817ca675092f5f3
 
-PODFILE CHECKSUM: 1bd023289b16a5b5e7dbcb0d4b20084acd0eac7e
+PODFILE CHECKSUM: ae518e82ed08fc01ac8a5c39a01edf9487d9e756
 
 COCOAPODS: 1.5.3

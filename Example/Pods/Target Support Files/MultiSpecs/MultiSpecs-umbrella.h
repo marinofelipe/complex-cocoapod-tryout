@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Extensions.h"
 
 FOUNDATION_EXPORT double MultiSpecsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MultiSpecsVersionString[];
