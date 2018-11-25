@@ -1,0 +1,22 @@
+{
+  "name": "MultiSpecs",
+  "version": "0.0.1",
+  "summary": "Validates usage of Pods with one framework and many subspecs",
+  "homepage": "https://github.com/marinofelipe/complex-cocoapod-tryout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Felipe Lefèvre Marino": "felipemarino91@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/marinofelipe/complex-cocoapod-tryout.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "MultiSpecs/Sources/**/*.swift"
+}

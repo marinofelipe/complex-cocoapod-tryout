@@ -1,0 +1,16 @@
+PODS:
+  - MultiSpecs (0.0.1)
+
+DEPENDENCIES:
+  - MultiSpecs (from `../`)
+
+EXTERNAL SOURCES:
+  MultiSpecs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MultiSpecs: b03cf0cfc4bd15c2aefd408efbcb1b672d5926ae
+
+PODFILE CHECKSUM: 4e19c49ec2d0deace23e857f0b3ce66ecd002192
+
+COCOAPODS: 1.5.3
