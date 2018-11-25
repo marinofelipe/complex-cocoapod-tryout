@@ -14,6 +14,17 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.swift_version = "4.2"
-  s.source_files  = "MultiSpecs/Sources/**/*.swift"
+  s.source_files  = "MultiSpecs"
+
+
+  s.subspec 'Extensions' do |ss|
+    ss.requires_arc = true
+    ss.source_files = "MultiSpecs/Extensions"
+  end
+
+  s.subspec 'Log' do |ss|
+    ss.requires_arc = true
+    ss.source_files = "MultiSpecs/Log"
+  end
 
 end
