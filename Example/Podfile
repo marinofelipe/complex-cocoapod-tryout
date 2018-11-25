@@ -1,4 +1,5 @@
 platform :ios, '9.0'
+workspace '../MultiSpecs'
 
 target 'MultiSpecsDemo' do
   use_frameworks!
