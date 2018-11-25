@@ -14,10 +14,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testMultiSpecsExtensionsSubspec()
+        textMultiSpecsLogSubspec()
     }
     
     private func testMultiSpecsExtensionsSubspec() {
         view.backgroundColor = UIColor(hexString: "#ffffff") ?? .white
+    }
+    
+    private func textMultiSpecsLogSubspec() {
+        Log.common(error: "Error")
     }
 }
 

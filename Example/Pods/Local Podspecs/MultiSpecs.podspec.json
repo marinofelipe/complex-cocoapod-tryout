@@ -40,7 +40,14 @@
     {
       "name": "Log",
       "requires_arc": true,
-      "source_files": "MultiSpecs/Log"
+      "source_files": "MultiSpecs/Log",
+      "ios": {
+        "dependencies": {
+          "MultiSpecs/Extensions/Foundation": [
+
+          ]
+        }
+      }
     }
   ]
 }
